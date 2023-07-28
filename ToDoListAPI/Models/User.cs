@@ -8,6 +8,6 @@ namespace ToDoListAPI.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string Password { get; set; }
-        public ICollection<TaskList> TaskList { get; set; }
+        public ICollection<TaskList>? TaskList { get; set; }
     }
 }
