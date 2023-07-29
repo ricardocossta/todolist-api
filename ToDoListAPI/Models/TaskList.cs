@@ -9,6 +9,6 @@ namespace ToDoListAPI.Models
         public string Title { get; set; }
         public ICollection<Task>? Tasks { get; set; }
         public int UserId { get; set; }
-        public User User { get; set; }
+        public User? User { get; set; }
     }
 }

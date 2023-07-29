@@ -16,6 +16,7 @@ builder.Services.AddDbContext<ToDoListContext>(c =>
 builder.Services.AddControllers();
 builder.Services.AddScoped<CategoryRepository>();
 builder.Services.AddScoped<UserRepository>();
+builder.Services.AddScoped<TaskListRepository>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

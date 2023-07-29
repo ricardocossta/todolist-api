@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ws-c#\\ToDoListAPI\\ToDoListAPI\\ToDoListAPI.csproj": {}
+    "C:\\Users\\Ricardo\\Desktop\\todolist-api\\ToDoListAPI\\ToDoListAPI.csproj": {}
   },
   "projects": {
-    "C:\\ws-c#\\ToDoListAPI\\ToDoListAPI\\ToDoListAPI.csproj": {
+    "C:\\Users\\Ricardo\\Desktop\\todolist-api\\ToDoListAPI\\ToDoListAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ws-c#\\ToDoListAPI\\ToDoListAPI\\ToDoListAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Ricardo\\Desktop\\todolist-api\\ToDoListAPI\\ToDoListAPI.csproj",
         "projectName": "ToDoListAPI",
-        "projectPath": "C:\\ws-c#\\ToDoListAPI\\ToDoListAPI\\ToDoListAPI.csproj",
-        "packagesPath": "C:\\Users\\cosst\\.nuget\\packages\\",
-        "outputPath": "C:\\ws-c#\\ToDoListAPI\\ToDoListAPI\\obj\\",
+        "projectPath": "C:\\Users\\Ricardo\\Desktop\\todolist-api\\ToDoListAPI\\ToDoListAPI.csproj",
+        "packagesPath": "C:\\Users\\Ricardo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ricardo\\Desktop\\todolist-api\\ToDoListAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\cosst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ricardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/linx-pdv-cloud/1a4713e7-7532-4399-9cb9-10771b608b31/_packaging/partial-load-pdv-pharma/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -79,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
