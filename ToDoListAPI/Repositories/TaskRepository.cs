@@ -21,5 +21,17 @@ namespace ToDoListAPI.Repositories
             }
             return tasks;
         }
+
+        public async Task<int> GetNumberOfCompletedTasksAsync(int taskListId)
+        {
+            var tasks = await _context.Tasks.Where(t => t.TaskListId == taskListId && t.IsComplete == true).ToListAsync();
+            return tasks.Count;
+        }
+
+        public async Task<int> GetNumberOfUncompletedTasksAsync(int taskListId)
+        {
+            var tasks = await _context.Tasks.Where(t => t.TaskListId == taskListId && t.IsComplete == false).ToListAsync();
+            return tasks.Count;
+        }
     }
 }

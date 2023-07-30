@@ -36,6 +36,18 @@ namespace ToDoListAPI.Controllers
             return Ok(await _taskRepository.GetTasksByTaskListAsync(taskListId, isComplete, categoryId));
         }
 
+        [HttpGet("get-number-of-completed-tasks-by-task-list/{taskListId}")]
+        public async Task<IActionResult> GetNumberOfCompletedTasks(int taskListId)
+        {
+            return Ok(await _taskRepository.GetNumberOfCompletedTasksAsync(taskListId));
+        }
+
+        [HttpGet("get-number-of-uncompleted-tasks-by-task-list/{taskListId}")]
+        public async Task<IActionResult> GetNumberOfUncompletedTasks(int taskListId)
+        {
+            return Ok(await _taskRepository.GetNumberOfUncompletedTasksAsync(taskListId));
+        }
+
         [HttpPost("post-task")]
         public async Task<IActionResult> PostTask([FromBody] Models.Task task)
         {
