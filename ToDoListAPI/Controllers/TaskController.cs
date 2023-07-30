@@ -31,6 +31,12 @@ namespace ToDoListAPI.Controllers
             return Ok(await _taskRepository.GetByIdAsync(id));
         }
 
+        [HttpGet("get-all-tasks-by-task-list/{taskListId}")]
+        public async Task<IActionResult> GetTasks(int taskListId, bool? isComplete, int? categoryId)
+        {
+            return Ok(await _taskRepository.GetTasksByTaskListAsync(taskListId, isComplete, categoryId));
+        }
+
         [HttpPost("post-task")]
         public async Task<IActionResult> PostTask([FromBody] Models.Task task)
         {
